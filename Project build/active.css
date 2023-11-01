@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(255, 255, 255);
+}
+.container {
+  display: flex;
+}
+.navi {
+  width: 100%;
+  height: 75px;
+  margin: auto;
+}
+.head {
+  color: black;
+  float: left;
+  padding-left: 50px;
+  width: 200px;
+  padding-top: 20px;
+}
+.main {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  float: left;
+  padding-top: 20px;
+}
+ul {
+  float: left;
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(182, 182, 172);
+  font-weight: bold;
+  transition: all 1s ease-out;
+}
+.side {
+  float: right;
+  display: flex;
+  margin: auto;
+  padding-right: 30px;
+}
+.side a {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.btn {
+  height: 30px;
+  background: black;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.btn:focus {
+  outline: none;
+}
+.btn a {
+  color: rgb(212, 212, 194);
+  padding-left: 15px;
+}
+ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.vast {
+  display: flex;
+  width: 100%;
+  height: 86vh;
+}
+.con {
+  background: rgb(196, 179, 179);
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  margin: 30px 20px;
+  border-radius: 20px;
+  
+}
+.vast .con h2 {
+  padding: 20px 20px;
+  font-size: 30px;
+  color: beige;
+}
+.writ {
+  padding: 20px 20px;
+  font-size: 15px;
+  color: beige;
+  font-family: "Times New Roman", Times, serif;
+}
+.white {
+  background: beige;
+  width: 193vh;
+  height: 80px;
+  margin-left: 35px;
+  margin-right: 20px;
+  margin-top: 220px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+.lan {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.range {
+  display: flex;
+}
+.clue {
+  flex: 1;
+  padding-left: 10px;
+  padding-top: 10px;
+  
+}
+ #Price-Range, #property, #location {
+  display: inline-block;
+  width: auto;
+  
+}
+.club{float: right;
+padding-right: 20px;}
+.club button{background: black;
+width: 80px;
+height: 28px;
+border-radius: 9px;
+box-shadow: none;}
+.club button a{text-decoration: none;
+color: beige;}
+.divi{
+  width: 100%;
+  display: flex;
+  margin: 0 20px;
+height: 30vh;
+
+}
+.fist, .sec, .tri{flex: 1;
+  margin: 10px 20px;
+  border-radius: 20px;
+  position: relative;
+  
+}
+.fist{background: rgb(129, 121, 121);}
+.sec{background: linear-gradient(to right , rgb(8, 5, 29) , rgb(1, 40, 66), rgb(1, 19, 43));
+background-size: cover;}
+.tri{background: rgb(17, 17, 17);}
+.sent , .same{font-size: 40px;
+padding: 20px 40px;}
+.cus, .lit {padding-left: 40px;}
+.same{color: beige;}
+.lit{color: beige;}
+
+
